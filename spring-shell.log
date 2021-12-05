@@ -1,0 +1,40 @@
+1638577894903:exit
+1638577932850:sign in privileged admin admin
+1638577936502:sign in privileged a a
+1638578874441:sign in privileged
+1638624404109:describe account
+1638624410934:exit
+1638626001789:sign in privileged admin admin
+1638626006720:exit
+1638626684134:sign in privileged admin admin
+1638626692685:logout
+1638626754309:sign in privileged admin admin
+1638626760846:describe account
+1638626776509:sign out
+1638627994677:sign in privileged admin admin
+1638628003582:describe account
+1638628038245:exit
+1638629624949:sign in privileged a a
+1638629635832:sign in privileged admin admin
+1638629640560:exit
+1638629882054:LOGGER.info("Login failed due to incorrect credentials");
+1638629899016:sign in privileged admin admin
+1638629966453:sign in privileged a a
+1638629971863:sign in privileged admin admin
+1638631237456:list movies
+1638631253730:exit
+1638631372036:create movie Sherlock bűnügyi 120
+1638631379810:list movies
+1638631384988:exit
+1638631431500:create movie Sherlock bűnügyi 120
+1638631435804:list movies
+1638631440505:exit
+1638631507734:create movie Sátántangó drama 450
+1638631513154:exit
+1638631661325:sign in privileged a a
+1638631667141:sign in privileged admin amdin
+1638631673272:sign in privileged admin admin
+1638631677331:sign out
+1638631693111:create movie Sátántangó drama 450
+1638631697565:list movies
+1638632128047:exit
