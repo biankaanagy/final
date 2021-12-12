@@ -13,41 +13,35 @@ public class AccountCommandHandler {
 
     private final AccountLoginService accountLoginService;
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(AccountLoginServiceImpl.class);
-
     public AccountCommandHandler(AccountLoginService accountLoginService) {
         this.accountLoginService = accountLoginService;
     }
 
     @ShellMethod(value = "Sign in privileged", key = "sign in privileged")
-    public void loginPriv(final String name, final String pwd) {
-
+    public String loginPriv(final String name, final String password) {
         try {
-            if (accountLoginService.login(name, pwd)) {
-                LOGGER.info("Alright. You are signed in.");
-                //return "Alright. You are signed in.";
+            if (accountLoginService.login(name, password)) {
+                return "Alright. You are signed in.";
             } else {
-                LOGGER.info("Login failed due to incorrect credentials");
-                //return "Login failed due to incorrect credentials";
+                return "Login failed due to incorrect credentials";
             }
         } catch (NoSuchAccountException e) {
             e.printStackTrace();
         }
+        return "Login failed due to incorrect credentials";
     }
 
     @ShellMethod(value = "Sign out privileged", key = "sign out")
-    public void signOutPriv() {
+    public String signOutPriv() {
         accountLoginService.signOut();
+        return "You are signed out.";
     }
 
     @ShellMethod(value = "Describe account", key = "describe account")
-    public void describeAccount() {
-        String user = accountLoginService.getUsername();
-        if (user.isEmpty()) {
-            LOGGER.info("You are not signed in");
-            //return "You are not signed in";
+    public String describeAccount() {
+        if(accountLoginService.accountLoggedIn()){
+            return "Signed in with privileged account " + accountLoginService.getUsername();
         }
-        LOGGER.info("Signed in with privileged account "+user);
-        //return "Signed in with privileged account " + user;
+        return "You are not signed in";
     }
 }

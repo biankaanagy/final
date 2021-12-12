@@ -1,5 +1,7 @@
 package com.epam.training.ticketservice.model;
 
+import org.springframework.stereotype.Component;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -8,6 +10,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "movie")
+@Component
 public class Movie {
 
     @Id
@@ -27,10 +30,10 @@ public class Movie {
         this.movieLengthMin = movieLengthMin;
     }
 
-    public Movie(final SimpleMovieBuilder simpleProductBuilder) {
-        this.title = simpleProductBuilder.title;
-        this.genre = simpleProductBuilder.genre;
-        this.movieLengthMin = simpleProductBuilder.movieLengthMin;
+    public Movie(final SimpleMovieBuilder simpleMovieBuilder) {
+        this.title = simpleMovieBuilder.title;
+        this.genre = simpleMovieBuilder.genre;
+        this.movieLengthMin = simpleMovieBuilder.movieLengthMin;
     }
 
     public static SimpleMovieBuilder builder() {
@@ -41,12 +44,24 @@ public class Movie {
         return title;
     }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     public String getGenre() {
         return genre;
     }
 
-    public double getMovieLengthMin() {
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
+
+    public int getMovieLengthMin() {
         return movieLengthMin;
+    }
+
+    public void setMovieLengthMin(int movieLengthMin) {
+        this.movieLengthMin = movieLengthMin;
     }
 
     @Override

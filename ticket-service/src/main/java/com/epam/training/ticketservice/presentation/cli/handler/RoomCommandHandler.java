@@ -1,9 +1,9 @@
 package com.epam.training.ticketservice.presentation.cli.handler;
 
+import com.epam.training.ticketservice.model.Movie;
 import com.epam.training.ticketservice.model.Room;
+import com.epam.training.ticketservice.service.AccountLoginService;
 import com.epam.training.ticketservice.service.RoomService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
 
@@ -12,27 +12,58 @@ import java.util.List;
 @ShellComponent
 public class RoomCommandHandler {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(RoomCommandHandler.class);
-
     private final RoomService roomService;
+    private final AccountLoginService accountLoginService;
 
     private List<Room> rooms;
 
-    public RoomCommandHandler(RoomService roomService) {
+    public RoomCommandHandler(RoomService roomService, AccountLoginService accountLoginService) {
         this.roomService = roomService;
+        this.accountLoginService = accountLoginService;
     }
 
     @ShellMethod(value = "Room creator", key = "create room")
-    public void createMovie(String title, int rowOfChairs, int columnOfChairs) {
-        roomService.createRoom(title, rowOfChairs, columnOfChairs);
-        LOGGER.info("Created Room "+title+" "+rowOfChairs+" "+columnOfChairs);
+    public String createRoom(String name, int rowOfChairs, int columnOfChairs) {
+        if(accountLoginService.accountLoggedIn()){
+            roomService.createRoom(name, rowOfChairs, columnOfChairs);
+            return "Created Room "+name+" "+rowOfChairs+" "+columnOfChairs;
+        }
+        return "You are not admin.";
     }
 
     @ShellMethod(value = "Room list", key = "list rooms")
-    public void listMovies() {
-        rooms = roomService.getRooms();
-        for (int i = 0; i < rooms.size(); i++) {
-            LOGGER.info(rooms.get(i).toString());
+    public String listRooms() {
+        rooms = roomService.getAllRoom();
+        if(!rooms.isEmpty()){
+            StringBuilder list = new StringBuilder();
+            for (Room r: rooms) {
+                list.append("Room "+r.getName()+" with "+r.getChairNumber()+" seats, "+r.getRowOfChairs()+" rows and "+r.getColumnOfChairs()+" columns\n");
+            }
+            return list+"";
         }
+        return "There are no rooms at the moment";
+    }
+
+    @ShellMethod(value = "Room updator", key = "update room")
+    public String updateRoom(String name, int rowOfChairs, int columnOfChairs) {
+        if(accountLoginService.accountLoggedIn()){
+            roomService.updateRoom(name, rowOfChairs, columnOfChairs);
+            return name + " room updateed.";
+        }
+        return "You are not admin.";
+    }
+
+    @ShellMethod(value = "Room deleter", key = "delete room")
+    public String deleteRoom(String name) {
+        if(accountLoginService.accountLoggedIn()){
+            try{
+                Room deleteRoom = roomService.getRoom(name);
+                roomService.deleteRoom(deleteRoom);
+                return deleteRoom.getName()+" room deleted";
+            }catch (NullPointerException e){
+                return "No such room: "+ name;
+            }
+        }
+        return "You are not admin.";
     }
 }

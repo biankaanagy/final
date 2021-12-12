@@ -1,5 +1,7 @@
 package com.epam.training.ticketservice.model;
 
+import org.springframework.stereotype.Component;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -8,6 +10,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "room")
+@Component
 public class Room {
 
     @Id
@@ -15,26 +18,30 @@ public class Room {
     private Long id;
 
     private String name;
+    private int chairNumber;
     private int rowOfChairs;
     private int columnOfChairs;
 
-    protected Room(SimpleRoomBuilder simpleRoomBuilder){
+    protected Room(){
     }
 
     public Room(String name, int rowOfChairs, int columnOfChairs) {
         this.name = name;
         this.rowOfChairs = rowOfChairs;
         this.columnOfChairs = columnOfChairs;
+        this.chairNumber = rowOfChairs * columnOfChairs;
     }
 
-    public Room() {
-
+    public Room(final SimpleRoomBuilder simpleRoomBuilder) {
+        this.name = simpleRoomBuilder.name;
+        this.rowOfChairs = simpleRoomBuilder.rowOfChairs;
+        this.columnOfChairs = simpleRoomBuilder.columnOfChairs;
+        this.chairNumber = simpleRoomBuilder.rowOfChairs * simpleRoomBuilder.columnOfChairs;
     }
 
     public static SimpleRoomBuilder builder() {
         return new SimpleRoomBuilder();
     }
-
 
     public String getName() {
         return name;
@@ -46,6 +53,27 @@ public class Room {
 
     public int getColumnOfChairs() {
         return columnOfChairs;
+    }
+
+    public int getChairNumber() {
+        return chairNumber;
+    }
+
+    public void setChairNumber(int chairNumber) {
+        this.chairNumber = chairNumber;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+    public void setRowOfChairs(int rowOfChairs) {
+        this.rowOfChairs = rowOfChairs;
+    }
+
+    public void setColumnOfChairs(int columnOfChairs) {
+        this.columnOfChairs = columnOfChairs;
     }
 
     @Override

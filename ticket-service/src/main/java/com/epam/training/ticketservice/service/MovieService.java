@@ -1,13 +1,20 @@
 package com.epam.training.ticketservice.service;
 
 import com.epam.training.ticketservice.model.Movie;
+import com.epam.training.ticketservice.service.exception.NoSuchMovieException;
 
 import java.util.List;
 
 public interface MovieService extends Observable{
 
-   void createMovie(String title, String genre, int movieLengthMin);
+   void deleteMovie(Movie movie);
 
-   List<Movie> getMovies();
+   Movie createMovie(String title, String genre, int movieLengthMin);
+
+   Movie updateMovie(String title, String genre, int movieLengthMin) throws NoSuchMovieException;
+
+   Movie getMovie(String title);
+
+   List<Movie> getAllMovie();
 
 }

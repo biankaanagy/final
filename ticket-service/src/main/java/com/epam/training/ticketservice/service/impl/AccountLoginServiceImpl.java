@@ -13,17 +13,19 @@ import java.util.List;
 @Service
 public class AccountLoginServiceImpl implements AccountLoginService {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(AccountLoginServiceImpl.class);
     private final List<Observer> observers;
     private String userName;
+    private boolean loggedIn = false;
 
     public AccountLoginServiceImpl() {
         this.observers = new ArrayList<>();
     }
 
     @Override
-    public boolean login(String name, String pwd) throws NoSuchAccountException {
-        if(name.equals("admin") && pwd.equals("admin")){
+    public boolean login(String name, String password) throws NoSuchAccountException {
+        if(name.equals("admin") && password.equals("admin")){
+            this.userName = name;
+            this.loggedIn = true;
             return true;
         }
         else {
@@ -33,9 +35,8 @@ public class AccountLoginServiceImpl implements AccountLoginService {
 
     @Override
     public void signOut() {
-        LOGGER.info("Signed out "+userName);
+        this.loggedIn = false;
     }
-
 
     @Override
     public String getUsername() {
@@ -43,8 +44,8 @@ public class AccountLoginServiceImpl implements AccountLoginService {
     }
 
     @Override
-    public void setUsername(String userName) {
-        this.userName = userName;
+    public boolean accountLoggedIn() {
+        return loggedIn;
     }
 
     @Override

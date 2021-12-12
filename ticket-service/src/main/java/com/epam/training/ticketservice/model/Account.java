@@ -1,5 +1,7 @@
 package com.epam.training.ticketservice.model;
 
+import org.springframework.stereotype.Component;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -7,7 +9,8 @@ import javax.persistence.Table;
 import java.util.Objects;
 
 @Entity
-@Table(name = "acc")
+@Table(name = "account")
+@Component
 public class Account {
 
     @Id

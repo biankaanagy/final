@@ -38,3 +38,38 @@
 1638631693111:create movie Sátántangó drama 450
 1638631697565:list movies
 1638632128047:exit
+1639251483572:sign in privileged admin admin
+1639251488212:create screening "Spirited Away" Pedersoli "2021-03-14 16:00"
+1639251495762:delete screening "Spirited Away"
+1639255561142:sign in privileged admin admin
+1639255569728:create movie apadanyad vigjatek 90
+1639255588987:delete movie apadanyad
+1639255593882:list movies
+1639255599453:create movie apadanyad vigjatek 90
+1639255601249:list movies
+1639346393656:create movie Sátántangó drama 90
+1639346403598:create screening Sátántangó terem1 "2021-03-14 16:00"
+1639346409148:list screenings
+1639346416091:sign in privileged admin admin
+1639346437468:describe account
+1639346448444:create movie Sátántangó drama 90
+1639346453622:create movie apadanyad vigjatek 90
+1639346457317:create room terem1 5 5
+1639346461819:create room terem2 3 2
+1639346466540:create room terem3 2 5
+1639346473105:list rooms
+1639346479530:list movies
+1639346498930:list screenings
+1639346507352:create screening "Spirited Away" Pedersoli "2021-03-14 16:00"
+1639346511710:create screening Sátántangó terem1 "2021-03-14 16:00"
+1639346519794:list screenings
+1639346523326:create screening Sátántangó terem1 "2021-03-14 16:10"
+1639346540406:create screening Sátántangó terem1 "2021-03-14 17:39"
+1639346553404:create screening Sátántangó terem1 "2020-04-15 16:00"
+1639346559235:list screenings
+1639346571977:sign out
+1639346573703:create screening Sátántangó terem1 "2021-03-14 16:00"
+1639346590372:sign in privileged admin admin
+1639346591742:create screening Sátántangó terem1 "2021-03-14 16:00"
+1639346603368:list screenings
+1639346626398:create screening Sátántangó terem1 "2021-03-14 16:01"
