@@ -23,7 +23,7 @@ class MovieCommandHandlerTest {
     private static final int TEST_INT_LENGTH = 1;
 
     @InjectMocks
-    private static MovieCommandHandler underTest;
+    private MovieCommandHandler underTest;
 
     @Mock
     private MovieService movieService;

@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cac8287e-117c-4517-ba44-a725a14b9ff6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/src/test/java/com/epam/training/ticketservice/presentation/cli/handler/MovieCommandHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/test/java/com/epam/training/ticketservice/presentation/cli/handler/MovieCommandHandlerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/src/test/java/com/epam/training/ticketservice/presentation/cli/handler/ScreeningCommandHandleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/test/java/com/epam/training/ticketservice/presentation/cli/handler/ScreeningCommandHandleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,52 @@
       <recent name="com.epam.training.ticketservice.presentation.cli.handler" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CliApplication">
+  <component name="RunManager" selected="JUnit.ScreeningCommandHandleTest.testListScreensShouldListScreenings">
+    <configuration name="MovieCommandHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ticket-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.training.ticketservice.presentation.cli.handler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.training.ticketservice.presentation.cli.handler" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.training.ticketservice.presentation.cli.handler.MovieCommandHandlerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomCommandHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ticket-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.training.ticketservice.presentation.cli.handler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.training.ticketservice.presentation.cli.handler" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.training.ticketservice.presentation.cli.handler.RoomCommandHandlerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScreeningCommandHandleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ticket-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.training.ticketservice.presentation.cli.handler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.training.ticketservice.presentation.cli.handler" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.training.ticketservice.presentation.cli.handler.ScreeningCommandHandleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ScreeningCommandHandleTest.testCreateScreeningShouldNotAdminCreatedScreenings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ticket-service" />
       <extension name="coverage">
@@ -79,38 +126,6 @@
       <option name="PACKAGE_NAME" value="com.epam.training.ticketservice.presentation.cli.handler" />
       <option name="MAIN_CLASS_NAME" value="com.epam.training.ticketservice.presentation.cli.handler.ScreeningCommandHandleTest" />
       <option name="METHOD_NAME" value="testCreateScreeningShouldNotAdminCreatedScreenings" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScreeningCommandHandleTest.testDeleteScreeningShouldAdminDeleteScreening" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ticket-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epam.training.ticketservice.presentation.cli.handler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epam.training.ticketservice.presentation.cli.handler" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.training.ticketservice.presentation.cli.handler.ScreeningCommandHandleTest" />
-      <option name="METHOD_NAME" value="testDeleteScreeningShouldAdminDeleteScreening" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScreeningCommandHandleTest.testDeleteScreeningShouldNotAdminDeleteScreening" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ticket-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epam.training.ticketservice.presentation.cli.handler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epam.training.ticketservice.presentation.cli.handler" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.training.ticketservice.presentation.cli.handler.ScreeningCommandHandleTest" />
-      <option name="METHOD_NAME" value="testDeleteScreeningShouldNotAdminDeleteScreening" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,22 +147,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScreeningCommandHandleTest.testListScreensShouldListScreeningsWhenEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ticket-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epam.training.ticketservice.presentation.cli.handler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epam.training.ticketservice.presentation.cli.handler" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.training.ticketservice.presentation.cli.handler.ScreeningCommandHandleTest" />
-      <option name="METHOD_NAME" value="testListScreensShouldListScreeningsWhenEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CliApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ticket-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.epam.training.ticketservice.presentation.cli.CliApplication" />
@@ -157,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ScreeningCommandHandleTest.testCreateScreeningShouldNotAdminCreatedScreenings" />
-        <item itemvalue="JUnit.ScreeningCommandHandleTest.testListScreensShouldListScreeningsWhenEmpty" />
         <item itemvalue="JUnit.ScreeningCommandHandleTest.testListScreensShouldListScreenings" />
-        <item itemvalue="JUnit.ScreeningCommandHandleTest.testDeleteScreeningShouldNotAdminDeleteScreening" />
-        <item itemvalue="JUnit.ScreeningCommandHandleTest.testDeleteScreeningShouldAdminDeleteScreening" />
+        <item itemvalue="JUnit.ScreeningCommandHandleTest" />
+        <item itemvalue="JUnit.RoomCommandHandlerTest" />
+        <item itemvalue="JUnit.MovieCommandHandlerTest" />
+        <item itemvalue="JUnit.ScreeningCommandHandleTest.testCreateScreeningShouldNotAdminCreatedScreenings" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +177,8 @@
       <workItem from="1639345917600" duration="1738000" />
       <workItem from="1639348552139" duration="387000" />
       <workItem from="1639397796786" duration="15111000" />
-      <workItem from="1639413910351" duration="3474000" />
+      <workItem from="1639413910351" duration="4843000" />
+      <workItem from="1639422421016" duration="1026000" />
     </task>
     <servers />
   </component>

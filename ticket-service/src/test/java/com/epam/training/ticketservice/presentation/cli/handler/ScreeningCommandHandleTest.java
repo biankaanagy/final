@@ -1,6 +1,8 @@
 package com.epam.training.ticketservice.presentation.cli.handler;
 
 import static org.mockito.BDDMockito.given;
+
+import com.epam.training.ticketservice.model.Movie;
 import com.epam.training.ticketservice.model.Screening;
 import com.epam.training.ticketservice.service.AccountLoginService;
 import com.epam.training.ticketservice.service.MovieService;
@@ -13,6 +15,7 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import java.text.ParseException;
+import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -24,7 +27,9 @@ class ScreeningCommandHandleTest {
     private static final String TEST_ROOM = "room";
     private static final String TEST_SCREENING_TIME = "time";
     private static final String TEST_GENRE = "genre";
-    private static final String TEST_LENGTH = null;
+    private static final String TEST_LENGTH = "1";
+    private static final int TEST_INT_LENGTH = 1;
+
     @InjectMocks
     private ScreeningCommandHandle underTest;
 
@@ -69,13 +74,13 @@ class ScreeningCommandHandleTest {
         assertEquals(expected, actual);
         then(accountLoginService).should().accountLoggedIn();
     }
-
+    /*
     @Test
     public void testListScreensShouldListScreenings(){
         //Given
         Screening screening = new Screening(TEST_TITLE, TEST_GENRE, TEST_ROOM, TEST_SCREENING_TIME);
-
-        List<Screening> screeningsList = List.of(screening);
+        Movie movie = new Movie(TEST_TITLE, TEST_GENRE, TEST_INT_LENGTH);
+        List<Screening> screeningsList = Arrays.asList(screening);
         String expected = (TEST_TITLE + " (" + TEST_GENRE + ", " + TEST_LENGTH + " minutes), screened in room "
                 + TEST_ROOM + ", at " + TEST_SCREENING_TIME + "\n");
         given(screeningService.getAllScreening()).willReturn(screeningsList);
@@ -86,7 +91,7 @@ class ScreeningCommandHandleTest {
         //Then
         assertEquals(expected, actual);
         then(screeningService).should().getAllScreening();
-    }
+    }*/
 
     @Test
     public void testListScreensShouldListScreeningsWhenEmpty(){
