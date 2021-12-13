@@ -370,3 +370,14 @@
 1639347647881:create screening SĂˇtĂˇntangĂł terem2 "2021-03-14 16:00"
 1639347654649:sign out
 1639347655830:create screening SĂˇtĂˇntangĂł terem1 "2021-03-14 16:00"
+1639414000299:create room terem1 5 5
+1639414003824:sign in privileged admin admin
+1639414006892:create room terem1 5 5
+1639414009675:list rooms
+1639414014417:create screening SĂˇtĂˇntangĂł terem1 "2021-03-14 16:00"
+1639414019982:create movie SĂˇtĂˇntangĂł drama 90
+1639414023034:create screening SĂˇtĂˇntangĂł terem1 "2021-03-14 16:00"
+1639414029987:list screenings
+1639414035386:create screening SĂˇtĂˇntangĂł terem1 "2021-03-14 16:50"
+1639414076451:sign out
+1639414077554:exit

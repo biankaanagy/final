@@ -61,7 +61,6 @@ class RoomServiceImplTest {
         //Then
         assertEquals(expected, actual);
         then(roomRepository).should().findAll();
-
     }
 
     @Test

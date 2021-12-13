@@ -4,95 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cac8287e-117c-4517-ba44-a725a14b9ff6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-shell.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-shell.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/java/com/training/epam/ticketservice/at/GenericCliProcessStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/java/com/training/epam/ticketservice/at/GenericCliProcessStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/java/com/training/epam/ticketservice/at/ProcessUnderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/java/com/training/epam/ticketservice/at/ProcessUnderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/java/com/training/epam/ticketservice/at/TestExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/java/com/training/epam/ticketservice/at/TestExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/resources/features/accounts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/resources/features/accounts.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/resources/features/bookings.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/resources/features/bookings.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/resources/features/movies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/resources/features/movies.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/resources/features/pricing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/resources/features/pricing.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/resources/features/rooms.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/resources/features/rooms.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/resources/features/screenings.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/resources/features/screenings.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/test-classes/features/accounts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/test-classes/features/accounts.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/test-classes/features/bookings.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/test-classes/features/bookings.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/test-classes/features/movies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/test-classes/features/movies.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/test-classes/features/pricing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/test-classes/features/pricing.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/test-classes/features/rooms.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/test-classes/features/rooms.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/test-classes/features/screenings.feature" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/test-classes/features/screenings.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/checkstyle/checkstyle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/checkstyle/checkstyle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/checkstyle/suppressions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/checkstyle/suppressions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/spring-shell.log" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/spring-shell.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/lib/ConfirmationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/lib/ConfirmationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/lib/impl/EmailConfirmationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/lib/impl/EmailConfirmationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/model/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/model/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/model/Screening.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/model/Screening.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/CliApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/CliApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/TicketServicePromptProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/TicketServicePromptProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/handler/AccountCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/handler/AccountCommandHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/handler/MovieCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/handler/MovieCommandHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/handler/RoomCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/handler/RoomCommandHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/handler/ScreeningCommandHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/handler/ScreeningCommandHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/repository/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/AccountLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/AccountLoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/MovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/RoomService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/ScreeningService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/ScreeningService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/exception/NoSuchAccountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/exception/NoSuchAccountException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/AccountLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/AccountLoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/MovieServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/MovieServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/RoomServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/RoomServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/ScreeningServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/ScreeningServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/resources/application-prod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/resources/application-prod.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/test/java/com/epam/training/ticketservice/service/impl/AccountLoginServiceImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/test/java/com/epam/training/ticketservice/service/impl/MovieServiceImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/application-prod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/application-prod.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/model/Account$SimpleAccountBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/model/Account$SimpleAccountBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/model/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/model/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/model/Movie$SimpleMovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/model/Movie$SimpleMovieBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/model/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/model/Room$SimpleRoomBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/model/Room$SimpleRoomBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/model/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/model/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/model/Screening$SimpleScreeningBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/model/Screening$SimpleScreeningBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/model/Screening.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/model/Screening.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/handler/AccountCommandHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/handler/AccountCommandHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/handler/MovieCommandHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/handler/MovieCommandHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/handler/RoomCommandHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/handler/RoomCommandHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/handler/ScreeningCommandHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/handler/ScreeningCommandHandle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/repository/AccountRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/repository/AccountRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/AccountLoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/AccountLoginService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/MovieService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/RoomService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/RoomService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/ScreeningService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/ScreeningService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/impl/AccountLoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/impl/AccountLoginServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/impl/MovieServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/impl/MovieServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/impl/RoomServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/impl/RoomServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/impl/ScreeningServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/impl/ScreeningServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/test-classes/com/epam/training/ticketservice/service/impl/AccountLoginServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/test-classes/com/epam/training/ticketservice/service/impl/AccountLoginServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/test-classes/com/epam/training/ticketservice/service/impl/MovieServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/test-classes/com/epam/training/ticketservice/service/impl/MovieServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/ticket-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/ticket-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/ticket-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/ticket-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-    </list>
+    <list default="true" id="cac8287e-117c-4517-ba44-a725a14b9ff6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,14 +30,16 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="JPA Inspector" value="true" />
-        <entry key="JPA Palette" value="true" />
-        <entry key="JPA Structure" value="true" />
+        <entry key="JPA Inspector" value="false" />
+        <entry key="JPA Palette" value="false" />
+        <entry key="JPA Structure" value="false" />
       </map>
     </option>
   </component>
   <component name="ProjectId" id="21sqYB0AdPp8asSritZZcJTN7x6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -127,10 +52,51 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ticket-service/target/jacoco.exec" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="JUnit.All in ticket-service">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.epam.training.ticketservice.presentation.cli.handler" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CliApplication">
+    <configuration name="AccountCommandHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ticket-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.training.ticketservice.presentation.cli.handler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.training.ticketservice.presentation.cli.handler" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.training.ticketservice.presentation.cli.handler.AccountCommandHandlerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ticket-service (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ticket-service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ticket-service (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ticket-service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in ticket-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ticket-service" />
       <option name="PACKAGE_NAME" value="" />
@@ -139,14 +105,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CliApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="com.epam.training.ticketservice.presentation.cli.handler in ticket-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ticket-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epam.training.ticketservice.presentation.cli.*" />
+          <option name="PATTERN" value="com.epam.training.ticketservice.presentation.cli.handler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.epam.training.ticketservice.presentation.cli.handler" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CliApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ticket-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.epam.training.ticketservice.presentation.cli.CliApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,8 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.com.epam.training.ticketservice.presentation.cli.handler in ticket-service" />
+        <item itemvalue="JUnit.All in ticket-service (2)" />
+        <item itemvalue="JUnit.AccountCommandHandlerTest" />
+        <item itemvalue="JUnit.All in ticket-service (1)" />
         <item itemvalue="JUnit.All in ticket-service" />
-        <item itemvalue="Spring Boot.CliApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -170,10 +147,20 @@
       <workItem from="1638740192507" duration="8000" />
       <workItem from="1638740210179" duration="40000" />
       <workItem from="1639345917600" duration="1738000" />
+      <workItem from="1639348552139" duration="387000" />
+      <workItem from="1639397796786" duration="15111000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="../../../../Desktop/NAAAA/final-master/ticket-service/target/jacoco.exec" NAME="jacoco.exec" MODIFIED="1639400300907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/final_master$All_in_ticket_service__5_.ic" NAME="All in ticket-service (5) Coverage Results" MODIFIED="1639401710287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/final_master$All_in_ticket_service.ic" NAME="All in ticket-service Coverage Results" MODIFIED="1639413308518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/final_master$All_in_ticket_service__3_.ic" NAME="All in ticket-service (3) Coverage Results" MODIFIED="1639401046540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/final_master$All_in_ticket_service__2_.ic" NAME="All in ticket-service (2) Coverage Results" MODIFIED="1639413496169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/final_master$All_in_ticket_service__1_.ic" NAME="All in ticket-service (1) Coverage Results" MODIFIED="1639412026710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

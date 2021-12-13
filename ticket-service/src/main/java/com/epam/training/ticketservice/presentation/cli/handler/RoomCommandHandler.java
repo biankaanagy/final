@@ -1,6 +1,5 @@
 package com.epam.training.ticketservice.presentation.cli.handler;
 
-import com.epam.training.ticketservice.model.Movie;
 import com.epam.training.ticketservice.model.Room;
 import com.epam.training.ticketservice.service.AccountLoginService;
 import com.epam.training.ticketservice.service.RoomService;

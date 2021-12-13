@@ -1,5 +1,6 @@
 package com.epam.training.ticketservice.model;
 
+import lombok.Data;
 import org.springframework.stereotype.Component;
 
 import javax.persistence.Entity;
@@ -11,6 +12,7 @@ import java.util.Objects;
 @Entity
 @Table(name = "room")
 @Component
+@Data
 public class Room {
 
     @Id
@@ -43,42 +45,17 @@ public class Room {
         return new SimpleRoomBuilder();
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public int getRowOfChairs() {
-        return rowOfChairs;
-    }
-
-    public int getColumnOfChairs() {
-        return columnOfChairs;
-    }
-
-    public int getChairNumber() {
-        return chairNumber;
-    }
-
-    public void setChairNumber(int chairNumber) {
-        this.chairNumber = chairNumber;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-
-    public void setRowOfChairs(int rowOfChairs) {
-        this.rowOfChairs = rowOfChairs;
-    }
-
-    public void setColumnOfChairs(int columnOfChairs) {
-        this.columnOfChairs = columnOfChairs;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Room room = (Room) o;
+        return chairNumber == room.chairNumber && rowOfChairs == room.rowOfChairs && columnOfChairs == room.columnOfChairs && Objects.equals(id, room.id) && Objects.equals(name, room.name);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, rowOfChairs, columnOfChairs);
+        return Objects.hash(id, name, chairNumber, rowOfChairs, columnOfChairs);
     }
 
     @Override

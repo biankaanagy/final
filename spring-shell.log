@@ -73,3 +73,14 @@
 1639346591742:create screening Sátántangó terem1 "2021-03-14 16:00"
 1639346603368:list screenings
 1639346626398:create screening Sátántangó terem1 "2021-03-14 16:01"
+1639402457418:sign in privileged admin admin
+1639402462525:create movie Sátántangó drama 90
+1639402466064:create room terem1 5 5
+1639402472350:create screening "Spirited Away" Pedersoli "2021-03-14 16:00"
+1639402476160:create screening Sátántangó terem1 "2021-03-14 16:00"
+1639402482043:list rooms
+1639402488853:list movies
+1639402491726:list screenings
+1639402496861:sign out
+1639406374518:sign in privileged admin admina
+1639406377593:sign in privileged admin admin

@@ -52,7 +52,7 @@ class ScreeningServiceImplTest {
     public void testGetScreeningShouldFindScreeningByTitleAndRoomNameAndScreenTime(){
         //Given
         Screening expected = new Screening(TEST_TITLE, TEST_GENRE, TEST_ROOM_NAME, TEST_SCREENING_TIME);
-        given(screeningRepository.findByTitleAndRoomNameAndScreenTime(TEST_TITLE, TEST_GENRE, TEST_SCREENING_TIME)).willReturn(expected);
+        given(screeningRepository.findByTitleAndRoomNameAndScreenTime(TEST_TITLE, TEST_ROOM_NAME, TEST_SCREENING_TIME)).willReturn(expected);
 
         //When
         Screening actual = underTest.getScreening(TEST_TITLE, TEST_ROOM_NAME, TEST_SCREENING_TIME);

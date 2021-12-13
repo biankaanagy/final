@@ -1,5 +1,6 @@
 package com.epam.training.ticketservice.model;
 
+import lombok.Data;
 import org.springframework.stereotype.Component;
 
 import javax.persistence.Entity;
@@ -11,6 +12,7 @@ import java.util.Objects;
 @Entity
 @Table(name = "screen")
 @Component
+@Data
 public class Screening implements Comparable<Screening>{
 
     @Id
@@ -39,45 +41,22 @@ public class Screening implements Comparable<Screening>{
         this.screenTime = simpleScreeningBuilder.screenTime;
     }
 
-    public String getGenreMovie() {
-        return genreMovie;
-    }
-
-    public void setGenreMovie(String genreMovie) {
-        this.genreMovie = genreMovie;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getRoomName() {
-        return roomName;
-    }
-
-    public void setRoomName(String roomName) {
-        this.roomName = roomName;
-    }
-
-    public String getScreenTime() {
-        return screenTime;
-    }
-
-    public void setScreenTime(String screenTime) {
-        this.screenTime = screenTime;
-    }
-
     public static SimpleScreeningBuilder builder() {
         return new SimpleScreeningBuilder();
     }
 
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Screening screening = (Screening) o;
+        return Objects.equals(id, screening.id) && Objects.equals(title, screening.title) && Objects.equals(genreMovie, screening.genreMovie) && Objects.equals(roomName, screening.roomName) && Objects.equals(screenTime, screening.screenTime);
+    }
+
     @Override
     public int hashCode() {
-        return Objects.hash(title, roomName, screenTime);
+        return Objects.hash(id, title, genreMovie, roomName, screenTime);
     }
 
     @Override

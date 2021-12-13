@@ -1,7 +1,9 @@
 package com.epam.training.ticketservice.model;
 
+import lombok.Data;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.processing.Generated;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -11,6 +13,7 @@ import java.util.Objects;
 @Entity
 @Table(name = "account")
 @Component
+@Data
 public class Account {
 
     @Id
@@ -37,18 +40,17 @@ public class Account {
         return new SimpleAccountBuilder();
     }
 
-
-    public String getName() {
-        return name;
-    }
-
-    public String getPassword() {
-        return password;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Account account = (Account) o;
+        return Objects.equals(id, account.id) && Objects.equals(name, account.name) && Objects.equals(password, account.password);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, password);
+        return Objects.hash(id, name, password);
     }
 
     @Override

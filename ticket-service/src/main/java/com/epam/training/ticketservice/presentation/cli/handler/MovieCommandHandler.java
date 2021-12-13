@@ -40,7 +40,7 @@ public class MovieCommandHandler {
         if (!movies.isEmpty()) {
             StringBuilder list = new StringBuilder();
             for (Movie m : movies) {
-                list.append(m.getTitle() + " (" + m.getGenre() + " " + m.getMovieLengthMin() + " minutes)\n");
+                list.append(m.getTitle() + " (" + m.getGenre() + ", " + m.getMovieLengthMin() + " minutes)\n");
             }
             return list + "";
         }
