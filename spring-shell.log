@@ -84,3 +84,7 @@
 1639402496861:sign out
 1639406374518:sign in privileged admin admina
 1639406377593:sign in privileged admin admin
+1639418155321:create movie Sátántangó drama 90
+1639418164535:create room terem1 5 5
+1639418169063:create screening Sátántangó terem1 "2021-03-14 16:00"
+1639418173809:list screenings

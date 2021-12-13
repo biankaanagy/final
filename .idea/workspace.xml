@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cac8287e-117c-4517-ba44-a725a14b9ff6" name="Changes" comment="" />
+    <list default="true" id="cac8287e-117c-4517-ba44-a725a14b9ff6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +56,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ticket-service/target/jacoco.exec" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -66,7 +68,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.CliApplication">
-    <configuration name="AccountCommandHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ScreeningCommandHandleTest.testCreateScreeningShouldNotAdminCreatedScreenings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ticket-service" />
       <extension name="coverage">
         <pattern>
@@ -75,37 +77,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.epam.training.ticketservice.presentation.cli.handler" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.training.ticketservice.presentation.cli.handler.AccountCommandHandlerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.training.ticketservice.presentation.cli.handler.ScreeningCommandHandleTest" />
+      <option name="METHOD_NAME" value="testCreateScreeningShouldNotAdminCreatedScreenings" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in ticket-service (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ticket-service" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in ticket-service (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ticket-service" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in ticket-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ticket-service" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.epam.training.ticketservice.presentation.cli.handler in ticket-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ScreeningCommandHandleTest.testDeleteScreeningShouldAdminDeleteScreening" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ticket-service" />
       <extension name="coverage">
         <pattern>
@@ -114,7 +93,57 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.epam.training.ticketservice.presentation.cli.handler" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.training.ticketservice.presentation.cli.handler.ScreeningCommandHandleTest" />
+      <option name="METHOD_NAME" value="testDeleteScreeningShouldAdminDeleteScreening" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScreeningCommandHandleTest.testDeleteScreeningShouldNotAdminDeleteScreening" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ticket-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.training.ticketservice.presentation.cli.handler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.training.ticketservice.presentation.cli.handler" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.training.ticketservice.presentation.cli.handler.ScreeningCommandHandleTest" />
+      <option name="METHOD_NAME" value="testDeleteScreeningShouldNotAdminDeleteScreening" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScreeningCommandHandleTest.testListScreensShouldListScreenings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ticket-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.training.ticketservice.presentation.cli.handler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.training.ticketservice.presentation.cli.handler" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.training.ticketservice.presentation.cli.handler.ScreeningCommandHandleTest" />
+      <option name="METHOD_NAME" value="testListScreensShouldListScreenings" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScreeningCommandHandleTest.testListScreensShouldListScreeningsWhenEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ticket-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.training.ticketservice.presentation.cli.handler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.training.ticketservice.presentation.cli.handler" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.training.ticketservice.presentation.cli.handler.ScreeningCommandHandleTest" />
+      <option name="METHOD_NAME" value="testListScreensShouldListScreeningsWhenEmpty" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.com.epam.training.ticketservice.presentation.cli.handler in ticket-service" />
-        <item itemvalue="JUnit.All in ticket-service (2)" />
-        <item itemvalue="JUnit.AccountCommandHandlerTest" />
-        <item itemvalue="JUnit.All in ticket-service (1)" />
-        <item itemvalue="JUnit.All in ticket-service" />
+        <item itemvalue="JUnit.ScreeningCommandHandleTest.testCreateScreeningShouldNotAdminCreatedScreenings" />
+        <item itemvalue="JUnit.ScreeningCommandHandleTest.testListScreensShouldListScreeningsWhenEmpty" />
+        <item itemvalue="JUnit.ScreeningCommandHandleTest.testListScreensShouldListScreenings" />
+        <item itemvalue="JUnit.ScreeningCommandHandleTest.testDeleteScreeningShouldNotAdminDeleteScreening" />
+        <item itemvalue="JUnit.ScreeningCommandHandleTest.testDeleteScreeningShouldAdminDeleteScreening" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +178,7 @@
       <workItem from="1639345917600" duration="1738000" />
       <workItem from="1639348552139" duration="387000" />
       <workItem from="1639397796786" duration="15111000" />
+      <workItem from="1639413910351" duration="3474000" />
     </task>
     <servers />
   </component>
@@ -156,11 +186,11 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="../../../../Desktop/NAAAA/final-master/ticket-service/target/jacoco.exec" NAME="jacoco.exec" MODIFIED="1639400300907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/final_master$All_in_ticket_service__5_.ic" NAME="All in ticket-service (5) Coverage Results" MODIFIED="1639401710287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/final_master$All_in_ticket_service.ic" NAME="All in ticket-service Coverage Results" MODIFIED="1639413308518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/final_master$All_in_ticket_service__3_.ic" NAME="All in ticket-service (3) Coverage Results" MODIFIED="1639401046540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/final_master$All_in_ticket_service__2_.ic" NAME="All in ticket-service (2) Coverage Results" MODIFIED="1639413496169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/final_master$All_in_ticket_service__1_.ic" NAME="All in ticket-service (1) Coverage Results" MODIFIED="1639412026710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="../../../../Desktop/NAAAA/final-master/ticket-service/target/jacoco.exec" NAME="jacoco.exec" MODIFIED="1639400300907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
